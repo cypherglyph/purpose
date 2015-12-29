@@ -50,7 +50,7 @@ AllFriendly?
 AllNeutral?
 AllEnvironmental?
 }
-*LOGIC statements?
+* LOGIC statements?
 {
 AND
 OR
