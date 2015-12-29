@@ -70,7 +70,7 @@ Conditionals?
 
 IF(EQUALS(GET(NearestTarget,IsEnemy), TRUE), Attack(NearestTarget), NULL)
 
-Conditional(Operation(Retrieval(Target, Attribute), Value) Action(Target), Special/Value)
+Conditional(Operation(Retrieval(Target, Attribute), Value), Action(Target), Special/Value/Constant?)
 
 
 As you can see - work in progress - whatever the player intreracts with to code will parse itself into an expression tree made of the above types of objects which will be attached to the Entity which will then evaluate it at runtime. The Entity will have access to itself, the map and probably a few useful collections - there are a lot of things I would like to 
