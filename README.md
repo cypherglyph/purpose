@@ -41,6 +41,9 @@ NearestEnemy
 NearestFriendly
 NearestNeutral
 }
+* Filter expressions? (Collection, Conditional)?
+* Movement? GetTile(x, y)? AllTiles?
+* Declaration expression?
 * Function statement(?)
 * Expression statement?
 * Globals? Lists? {
